@@ -1,0 +1,1 @@
+# lisbon-trip-2026
