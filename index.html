@@ -19,6 +19,12 @@
         .location { color: #d17a22; font-weight: bold; }
         .link { color: #d17a22; text-decoration: none; font-weight: bold; }
         .link:hover { text-decoration: underline; }
+        
+        /* New Agenda Styling */
+        .agenda { margin-top: 1rem; background: #fdfdfd; border-left: 3px solid #ccc; padding: 10px 15px; border-radius: 0 6px 6px 0; }
+        .agenda-title { font-weight: bold; color: #555; margin-bottom: 0.5rem; display: block; }
+        .sub-list { list-style-type: circle; padding-left: 1.5rem; }
+        .sub-list li { border-bottom: none; padding-bottom: 0; margin-bottom: 0.4rem; font-size: 0.95rem; }
     </style>
 </head>
 <body>
@@ -41,13 +47,20 @@
 </section>
 
 <section class="trip-section">
-    <h2>Accommodations</h2>
+    <h2>Accommodations & Itinerary</h2>
     
     <div class="stay">
         <div class="date-badge">May 24 – May 27</div>
         <p><span class="bold">Airbnb 1:</span> <span class="location">Ericeira</span></p>
-        <p><span class="bold">Address:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Praça+dos+Navegantes+18+Ericeira+Portugal" target="_blank">Praça dos Navegantes n.º18, 3.º andar</a></p>
-        <p><span class="bold">Hotel Shuttle Location:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Calcada+da+Baleia+10+Ericeira+Portugal" target="_blank">Calçada da Baleia 10, Ericeira</a></p>
+        <p><span class="bold">Address:</span> <a class="link" href="https://maps.google.com/?q=Praça+dos+Navegantes+n.º18,+3.º+andar,+Ericeira" target="_blank">Praça dos Navegantes n.º18, 3.º andar</a></p>
+        <p><span class="bold">Hotel Shuttle Location:</span> <a class="link" href="https://maps.google.com/?q=Calçada+da+Baleia+10,+Ericeira" target="_blank">Calçada da Baleia 10, Ericeira</a></p>
+        
+        <div class="agenda">
+            <span class="agenda-title">Target Excursions & Dining</span>
+            <ul class="sub-list">
+                <li>[Add Ericeira restaurants, surf spots, or activities]</li>
+            </ul>
+        </div>
     </div>
 
     <hr style="border: 0; border-top: 1px dashed #ccc; margin: 1.5rem 0;">
@@ -55,18 +68,20 @@
     <div class="stay">
         <div class="date-badge">May 27 – May 30</div>
         <p><span class="bold">Airbnb 2:</span> <span class="location">Lisbon</span></p>
-        <p><span class="bold">Address:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Costa+do+Castelo+152+Lisbon+1100-466+Portugal" target="_blank">Costa do Castelo 152, 1100-466 Lisbon</a></p>
+        <p><span class="bold">Address:</span> <a class="link" href="https://maps.google.com/?q=Costa+do+Castelo+152,+1100-466+Lisbon" target="_blank">Costa do Castelo 152, 1100-466 Lisbon</a></p>
         <p>3 Nights in the city.</p>
+
+        <div class="agenda">
+            <span class="agenda-title">Target Excursions & Dining</span>
+            <ul class="sub-list">
+                <li><a class="link" href="https://www.airbnb.com/experiences/3675199?viralityEntryPoint=2&s=76" target="_blank">Sailboat Sunset Wine Tour</a></li>
+                <li>[Add other Lisbon restaurants or activities]</li>
+            </ul>
+        </div>
     </div>
 </section>
 
 <section class="trip-section">
     <h2>Upcoming Events</h2>
     <ul>
-        <li><span class="bold">The Wedding:</span> Details: <a class="link" href="https://www.google.com/maps/search/?api=1&query=Quinta+de+Sant'Ana+do+Gradil+Portugal" target="_blank">Quinta de Sant'Ana do Gradil</a></li>
-    </ul>
-</section>
-
-<section class="trip-section">
-    <h2>Wedding Registry & Info</h2>
-    <p>For
+        <li><span class="bold">The Wedding:</span> Details: <a class="link" href="https://maps.google.com/?q=Quinta+de+Sant'Ana+do+Gradil" target="_
