@@ -47,7 +47,7 @@
         <div class="date-badge">May 24 – May 27</div>
         <p><span class="bold">Airbnb 1:</span> <span class="location">Ericeira</span></p>
         <p><span class="bold">Address:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Praça+dos+Navegantes+18+Ericeira+Portugal" target="_blank">Praça dos Navegantes n.º18, 3.º andar</a></p>
-        <p><span class="bold">Hotel Shuttle Location:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Calçada+da+Baleia+10+Ericeira+Portugal" target="_blank">Calçada da Baleia 10, Ericeira</a></p>
+        <p><span class="bold">Hotel Shuttle Location:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Calcada+da+Baleia+10+Ericeira+Portugal" target="_blank">Calçada da Baleia 10, Ericeira</a></p>
     </div>
 
     <hr style="border: 0; border-top: 1px dashed #ccc; margin: 1.5rem 0;">
@@ -55,6 +55,7 @@
     <div class="stay">
         <div class="date-badge">May 27 – May 30</div>
         <p><span class="bold">Airbnb 2:</span> <span class="location">Lisbon</span></p>
+        <p><span class="bold">Address:</span> <a class="link" href="https://www.google.com/maps/search/?api=1&query=Costa+do+Castelo+152+Lisbon+1100-466+Portugal" target="_blank">Costa do Castelo 152, 1100-466 Lisbon</a></p>
         <p>3 Nights in the city.</p>
     </div>
 </section>
@@ -68,36 +69,4 @@
 
 <section class="trip-section">
     <h2>Wedding Registry & Info</h2>
-    <p>For more details on the ceremony and registry, visit the official site:</p>
-    <p><a class="link" href="https://judyandanthony2026.squarespace.com/" target="_blank">Judy & Anthony's Wedding Website</a></p>
-    <p><span class="bold">Password:</span> 1234</p>
-</section>
-
-<script>
-    function updateCountdown() {
-        const takeoffDate = new Date("May 23, 2026 16:40:00").getTime();
-        const now = new Date().getTime();
-        const distance = takeoffDate - now;
-
-        if (distance < 0) {
-            document.getElementById("timer").innerHTML = "Wheels up! ✈️";
-            return;
-        }
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("timer").innerHTML = 
-            days + "d " + hours + "h " + minutes + "m " + seconds + "s until takeoff";
-    }
-
-    // Run once immediately
-    updateCountdown();
-    // Then run every second
-    setInterval(updateCountdown, 1000);
-</script>
-
-</body>
-</html>
+    <p>For
